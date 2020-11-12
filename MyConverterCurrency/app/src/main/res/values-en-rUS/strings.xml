@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Currency rates </string>
+    <string name="textEditTextDialog">  Currency, country</string>
+    <string name="DialogTitle"> Select currency</string>
+    <string name="DialogCancel">Cancel</string>
+    <string name="TextToolBar">Exchannge rates of :</string>
+
+    <string name="australia">Australian Dollar </string>
+    <string name="azerbaijan">Azerbaijan Manat</string>
+    <string name="british">British Pound Sterling</string>
+    <string name="armenia">Armenia Dram</string>
+    <string name="belorus">Belarussian Ruble</string>
+    <string name="bulgaria">Bulgarian Lev</string>
+    <string name="brazilia">Brazil Real</string>
+    <string name="hungaria">Hungarian Forint</string>
+    <string name="gonkong">Hong Kong Dollar</string>
+    <string name="dania">Danish Krone</string>
+    <string name="usa">US Dollar</string>
+    <string name="evro">Euro</string>
+    <string name="indiya">Indian Rupee</string>
+    <string name="kazahstan">Kazakhstan Tenge</string>
+    <string name="canada">Canadian Dollar</string>
+    <string name="kirgiz">Kyrgystan Som</string>
+    <string name="china">China Yuan</string>
+    <string name="moldova">Moldova Lei</string>
+    <string name="norwegian">Norwegian Krone</string>
+    <string name="polish">Polish Zloty</string>
+    <string name="romania">Romanian leu</string>
+    <string name="SDR">SDR</string>
+    <string name="singapore">Singapore Dollar</string>
+    <string name="tadjikistan">Tajikistan Somoni</string>
+    <string name="turkish">Turkish Lira</string>
+    <string name="turkmenia">Turkmenistan Manat</string>
+    <string name="uzbekistan">Uzbekistan Sum</string>
+    <string name="ukrain">Ukrainian Hryvnia</string>
+    <string name="czech">Czech Koruna</string>
+    <string name="swedish">Swedish Krona</string>
+    <string name="swisss">Swiss Franc</string>
+    <string name="afrika">S.African Rand</string>
+    <string name="korea">Korean Won</string>
+    <string name="japan">Japanese Yen</string>
+    <string name="russia">Russian Ruble</string>
+
+</resources>

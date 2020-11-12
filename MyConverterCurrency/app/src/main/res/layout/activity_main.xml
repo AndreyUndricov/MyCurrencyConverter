@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swiperefresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".activity.MainActivity">
+
+
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/colorPrimary"
+            app:titleTextColor="@android:color/white">
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+        <RelativeLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@android:color/holo_blue_dark"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/imageFirstCurrency"
+                android:layout_width="140dp"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="25dp"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:src="@drawable/russia_rectangular_icon_with_frame_256"
+                android:tag="currency1"></ImageView>
+
+            <TextView
+                android:id="@+id/nameFirstCurrency"
+
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageFirstCurrency"
+                android:layout_alignLeft="@+id/editTextValueCurrency"
+                android:layout_marginTop="-15dp"
+                android:gravity="center"
+                android:maxLines="2"
+                android:onClick="onClickFlagFirst"
+                android:text="@string/russia"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"></TextView>
+
+
+            <ImageView
+                android:id="@+id/imageSecondCurrency"
+                android:layout_width="180dp"
+                android:layout_height="100dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="5dp"
+                android:onClick="onClick"
+                android:src="@drawable/united_states_of_america_rectangular_icon_with_frame_256"
+                android:tag="currency2"></ImageView>
+
+            <ImageView
+                android:id="@+id/buttonChangeCyrrency"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/ic_baseline_sync_alt_24"
+                android:clickable="true"></ImageView>
+
+
+            <TextView
+                android:id="@+id/nameSecondCurrency"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageSecondCurrency"
+                android:layout_alignLeft="@+id/textViewResultValue"
+                android:layout_marginTop="-15dp"
+                android:gravity="center"
+                android:maxLines="2"
+                android:onClick="onClickFlagSecond"
+                android:text="@string/usa"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"></TextView>
+
+
+            <EditText
+                android:id="@+id/editTextValueCurrency"
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imageFirstCurrency"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/drawable_back"
+                android:inputType="numberDecimal"
+                android:maxLength="12"
+                android:padding="10dp"
+                android:textDirection="anyRtl"></EditText>
+
+
+            <TextView
+                android:id="@+id/textViewResultValue"
+                android:layout_width="139dp"
+                android:layout_height="41dp"
+                android:layout_below="@+id/imageSecondCurrency"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="33dp"
+                android:layout_marginEnd="25dp"
+                android:background="@drawable/drawable_back"
+                android:padding="5dp"
+                android:textColor="@android:color/black"
+                android:textDirection="rtl"
+                android:textSize="20sp"></TextView>
+
+        </RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#DCDCDC"
+            android:scrollbars="vertical"></androidx.recyclerview.widget.RecyclerView>
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111"
+            tools:ignore="MissingConstraints">
+        </com.google.android.gms.ads.AdView>
+</RelativeLayout>
+    </LinearLayout>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

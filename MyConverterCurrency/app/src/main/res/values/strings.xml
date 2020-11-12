@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Конвертер валют</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textEditTextDialog">  Валюта, страна</string>
+    <string name="DialogTitle">  Выбирите валюту</string>
+    <string name="DialogCancel">  Отмена</string>
+    <string name="TextToolBar">  Курс валют ЦБ на :</string>
+
+    <string name="australia">Австралийский доллар</string>
+    <string name="azerbaijan">Азербайджанский манат</string>
+    <string name="british">Фунт Великобритании</string>
+    <string name="armenia">Армянский драм</string>
+    <string name="belorus">Белорусский рубль</string>
+    <string name="bulgaria">Болгарский лев</string>
+    <string name="brazilia">Бразильский реал</string>
+    <string name="hungaria">Венгерский форинт</string>
+    <string name="gonkong">Гонконский доллар</string>
+    <string name="dania">Датская крона</string>
+    <string name="usa">Доллар США</string>
+    <string name="evro">Евро</string>
+    <string name="indiya">Индийский рупий</string>
+    <string name="kazahstan">Казахстанский тенге</string>
+    <string name="canada">Канадский доллар</string>
+    <string name="kirgiz">Киргизский сом</string>
+    <string name="china">Китайский юань</string>
+    <string name="moldova">Молдавский леев</string>
+    <string name="norwegian">Норвежская крона</string>
+    <string name="polish">Польский злотый</string>
+    <string name="romania">Румынский лей</string>
+    <string name="SDR">СДР</string>
+    <string name="singapore">Сингапурский доллар</string>
+    <string name="tadjikistan">Таджикский сомон</string>
+    <string name="turkish">Турецкий лир</string>
+    <string name="turkmenia">Туркменский манат</string>
+    <string name="uzbekistan">Узбекский сум</string>
+    <string name="ukrain">Украинская гривна</string>
+    <string name="czech">Чешская крона</string>
+    <string name="swedish">Шведская крона</string>
+    <string name="swisss">Швейцарский франк</string>
+    <string name="afrika">Южноафриканский рэнд</string>
+    <string name="korea">Вон Республики Корея</string>
+    <string name="japan">Японская йена</string>
+    <string name="russia">Российский рубль</string>
+
+</resources>
